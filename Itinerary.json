@@ -9,9 +9,20 @@
     }
     "destinations":[
         {
+"location":"New York",
+"arrivalDate":"2026-10-05",
+"departureDate":"2026-10-10",
+"activities":[
+{"title":"Central Park Walk","time":"8:00 AM"},
+{"title":"Broadway Show","time":"7:30 PM"}
+],
+"transportation":{"mode":"Flight","cost":210.00}
+},
+        {
             "location":"Florida"
             "arrivalDate":"2026-10-11"
             "departureDate":"2026-11-01"
+            "transportation":{"mode":"Flight","cost":180.00},
             "activities":{
                 {"title":"Beach Walk", "time":"5:00 AM"},
                 {"title":"Seafood Dinner","time":"5:00 PM"},
@@ -21,6 +32,7 @@
             "location":"California"
             "arrivalDate":"2026-11-04"
             "departureDate":"2026-11-11"
+            "transportation":{"mode":"Flight","cost":320.00},
             "activities":{
                 {"title":"Beach Walk", "time":"5:00 AM"},
                 {"title":"Souvenir Shopping","time":"10:00 AM"},
